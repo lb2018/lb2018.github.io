@@ -5,7 +5,7 @@
 <head>
   <title>Louise Bourchier Academic Portfolio</title>
   <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Raleway|Roboto|Work+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -26,18 +26,73 @@
 	  </nav>
   </div>
   
-  <h2>Teaching</h2>
+  <h3>Teaching</h3>
 
-	<h3>Teaching Philosophy</h3>
+<div class="teaching">
+	<h4>Teaching Philosophy</h4>
+		<p>I create dynamic learning environments where students think critically about their society and values in a safe space for different feelings and opinions to be voiced. A learning environment attuned to diversity is essential as my teaching often addresses sensitive issues like sex, violence and drugs. One of my preferred tools for engaging learners and fostering a supportive space is judicious use of a dash of humour.</p>
+		<p>In my teaching I prioritise learner-centered methods such as flipped teaching, problem-based learning, and work placements assessments to make sure capability development is at the forefront. When creating courses I balance teaching materials between the local - so that learning is relevant, relatable, and readily usable - and the unfamiliar - so that learning is expansive and presents new possibilities.</p> 
+		<br>
+	<h4>Course Design</h4>
+		<p>I have developed three blended learning courses, and contributed to the redevelopment of a further five courses. All are undergraduate courses in health promotion or related to community programming.</p>
+		<p>The principle of constructive alignment guided my course design approach. First I determined the broad topics and learning outcomes for the courses, then suitable assessment tasks that reflected these learning outcomes. From there I created modules and weekly content for students to develop the desired knowledge and skills.</p>
+		<p>Three of the courses I designed and taught use a flipped pedagogy where students engage with material online before coming to class, and class time is used to deepen and apply their learning. Using the flipped approach means that classroom time is learner centered, focussed on discussion, group work and practicing skills.</p>
+		<br>
+	<h4>Teaching Strategies</h4>
+		<p>I use teaching strategies that make use of the range of possibilities available in the modern higher education classroom and that acknowledge the diverse ways people learn. In-class students collaborate on projects using the Google suite, compete in kahoot quizzes, and use large paper and craft supplies. Through the learning management system students engage in forums, participate in quizzes, give each other formative feedback, watch videos, access literature, and complete learning activities.</p>
+		<p>I design varied assessments types so that students practice a range of skills relevant to their future practice. Using a variety of assessment methods also allows students to demonstrate their areas of competence, and work on their areas of development. Within my courses students are assessed through presentations, written reports, online portfolios, work placement observations, professional conversations, and formative peer assessment.</p>
+		<p>My teaching is attentive to culture and students are encouraged to bring their cultural perspectives to the learning. Within the context of teaching in New Zealand it was important to center the perspectives and priorities of the indigenous Māori people, and I worked with Māori cultural advisors within the institution to ensure the appropriate inclusion of Māori world views, and to create a teaching environment that supported the success of Māori students.</p>
+		<br>
+	<h4>Learner Feedback</h4>
+		<p>Quotes by students gathered from anonymous mid-semester and end-of-semester course evaluations:</p>
+		
+		<div class="student-feedback">
+		  <div class="slider-feedback">
+			  <img class="mySlides" src="student1.jpg" style="width: 100%">
+			  <img class="mySlides" src="student2.jpg" style="width:100%">
+			  <img class="mySlides" src="student3.jpg" style="width:100%">
+			  <img class="mySlides" src="student4.jpg" style="width:100%">
+			  <img class="mySlides" src="student5.jpg" style="width:100%">
+			  <img class="mySlides" src="student6.jpg" style="width:100%">
+			  <img class="mySlides" src="student7.jpg" style="width:100%">
+			  <img class="mySlides" src="student8.jpg" style="width:100%">
+			  <img class="mySlides" src="student9.jpg" style="width:100%">
+			  <img class="mySlides" src="student10.jpg" style="width:100%">
+		</div>
+  
+		  <script>
+		var myIndex1 = 0;
+		carousel();
 
-	<h3>Course Design</h3>
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex1++;
+			if (myIndex1 > x.length) {myIndex1 = 1}    
+			x[myIndex1-1].style.display = "block";  
+			setTimeout(carousel, 3200); // Change image every 3.2 seconds
+		}
+		</script>
+	  </div>
+<br>
+	<h4>Peer Reviews of Teaching</h4>
+	<p>Quotes from peer reviews of my teaching:</p>
+	<br>
+		  <div class="peer-review">
+			  <img src="peer1.jpg" style="width: 100%">
+			  <img src="peer2.jpg" style="width:100%">
+		</div>
 
-	<h3>Teaching Strategies</h3>
+</div>
 
-	<h3>Learner Feedback</h3>
-
-	<h3>Peer Reviews of Teaching</h3>
-
+  <div class="footer">
+	<p>&copy; Louise Bourchier</p>
+	<p>Last updated Sept 2018</p>
+  </div>
+  
 </body>
 
 </html>
